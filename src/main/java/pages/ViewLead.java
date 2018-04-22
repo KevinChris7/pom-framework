@@ -9,7 +9,7 @@ import cucumber.api.java.en.And;
 import wdMethods.ProjectMethods;
 
 public class ViewLead extends ProjectMethods{
-     ViewLead(){
+     public ViewLead(){
     	 PageFactory.initElements(driver, this);
      }
      @FindBy(how=How.ID,using="viewLead_companyName_sp")
@@ -27,11 +27,20 @@ public class ViewLead extends ProjectMethods{
          click(eleClickDeleteButton);
          return this;
 }
+   //For Duplicate lead 
     @FindBy(how=How.LINK_TEXT,using="Duplicate Lead")
 	private WebElement eleDuplicateLead;
 	@And("Click on Duplicate lead button")
 	public DuplicateLead clickDuplicateLead() {
 		click(eleDuplicateLead);
 		return new DuplicateLead();		
+	}
+	//For Edit lead
+	@FindBy(how=How.XPATH,using="(//a[@class=\"subMenuButton\"])[3]")
+	private WebElement eleEditLead;
+	@And("Click the edit button")
+	public OpentapsCRM clickEdit() {
+		click(eleEditLead);
+		return new OpentapsCRM();
 	}
 }

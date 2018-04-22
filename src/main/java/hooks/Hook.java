@@ -13,9 +13,9 @@ public class Hook extends SeMethods{
 	public void beforeRun()
 	{
 		startResult();
-		startTestModule("DeleteLead", "Deleting the lead");
+		startTestModule("Edit Lead", "Edit the lead");
 		test = startTestCase("Leads");
-		test.assignCategory("Smoke");
+		test.assignCategory("Regression");
 		test.assignAuthor("Kevin");
 		startApp("chrome");
 	}

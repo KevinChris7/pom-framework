@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42567" started-at="2018-04-18T18:37:48Z" finished-at="2018-04-18T18:38:30Z">
+  <suite name="Suite" duration-ms="31089" started-at="2018-04-21T04:56:03Z" finished-at="2018-04-21T04:56:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42567" started-at="2018-04-18T18:37:48Z" finished-at="2018-04-18T18:38:30Z">
-      <class name="testcases.TC007_DeleteLead">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="beforeSuite" is-config="true" duration-ms="418" started-at="2018-04-19T00:07:47Z" finished-at="2018-04-19T00:07:48Z">
+    <test name="Test" duration-ms="31089" started-at="2018-04-21T04:56:03Z" finished-at="2018-04-21T04:56:34Z">
+      <class name="testcases.TC001_CreateLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="beforeSuite" is-config="true" duration-ms="508" started-at="2018-04-21T10:26:03Z" finished-at="2018-04-21T10:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="setData" is-config="true" duration-ms="0" started-at="2018-04-19T00:07:48Z" finished-at="2018-04-19T00:07:48Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="setData" is-config="true" duration-ms="0" started-at="2018-04-21T10:26:03Z" finished-at="2018-04-21T10:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-04-19T00:07:48Z" finished-at="2018-04-19T00:07:48Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-04-21T10:26:03Z" finished-at="2018-04-21T10:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="beforeMethod" is-config="true" duration-ms="18576" started-at="2018-04-19T00:07:48Z" finished-at="2018-04-19T00:08:07Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="beforeMethod" is-config="true" duration-ms="13727" started-at="2018-04-21T10:26:04Z" finished-at="2018-04-21T10:26:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="login" duration-ms="22427" started-at="2018-04-19T00:08:07Z" data-provider="fetchData" finished-at="2018-04-19T00:08:29Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="login" duration-ms="13233" started-at="2018-04-21T10:26:18Z" data-provider="fetchData" finished-at="2018-04-21T10:26:31Z">
           <params>
             <param index="0">
               <value>
@@ -37,26 +37,36 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Test]]>
+                <![CDATA[sysvedha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nishanth]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[k]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="afterMethod" is-config="true" duration-ms="783" started-at="2018-04-19T00:08:29Z" finished-at="2018-04-19T00:08:30Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="afterMethod" is-config="true" duration-ms="3462" started-at="2018-04-21T10:26:31Z" finished-at="2018-04-21T10:26:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-19T00:08:30Z" finished-at="2018-04-19T00:08:30Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-21T10:26:34Z" finished-at="2018-04-21T10:26:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC007_DeleteLead@1ec1f0c]" name="afterSuite" is-config="true" duration-ms="848" started-at="2018-04-19T00:08:30Z" finished-at="2018-04-19T00:08:31Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_CreateLead@1ec1f0c]" name="afterSuite" is-config="true" duration-ms="532" started-at="2018-04-21T10:26:35Z" finished-at="2018-04-21T10:26:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.TC007_DeleteLead -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
